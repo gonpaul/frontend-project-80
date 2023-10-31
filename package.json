@@ -4,6 +4,9 @@
   "description": "[![Actions Status](https://github.com/gonpaul/frontend-project-80/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/gonpaul/frontend-project-80/actions)",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
