@@ -7,6 +7,9 @@ export const game = (name, rounds, gameRound) => {
     const data = gameRound() // it returns the right answer and the user answer
     if (String(data.answer) === data.userAnswer) {
       console.log('Correct!');
+      if (i == 2) {
+        console.log(`Congratulations, ${name}`);
+      }
     } else {
       console.log(`${data.userAnswer} is a wrong answer ;(. The correct answer was ${data.answer}.`);
       console.log(`Let's try again, ${name}`);

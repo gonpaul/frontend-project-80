@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { brainGames } from '../src/cli.js';
 import { game } from '../src/index.js';
 
 
 // closure should work fine, dont wanna repeat myself
-const setRandom = (n) => () => Math.floor(Math.random() * n);
+const setRandom = (n) => ((m) => Math.floor(Math.random() * n));
 const random100 = setRandom(100);
 const random3 = setRandom(3);
 
