@@ -24,4 +24,3 @@ const brainCalc = () => {
 
 export default brainCalc;
 
-brainCalc();
