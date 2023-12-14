@@ -5,4 +5,5 @@
 Here you can watch how games work: 
 brain-even game - https://asciinema.org/a/SQ4BxTM1VX1Jr2DgpdEO75srv
 brain-calc game - https://asciinema.org/a/Sc9T78O8WfJqSIQZ7tMDSGm6V 
-brain-gcd game - https://asciinema.org/a/DnJNqBnbVh5b5ssNQJFws13nu 
+brain-gcd game - https://asciinema.org/a/DnJNqBnbVh5b5ssNQJFws13nu
+brain-progression game - https://asciinema.org/a/3jTWTwYSzlanS1xOebcza1mi0 

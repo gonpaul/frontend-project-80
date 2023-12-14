@@ -30,3 +30,7 @@ export const createProblem = (num1, num2) => {
   const answer = (operation === num1) ? num1 * num2 : num1 + (num2 * operation);
   return [problem, answer];
 };
+
+export const randomMinMax = (min, max) => {
+  return Math.floor(min + Math.random() * (max - min))
+}
