@@ -3,7 +3,6 @@ import { setRandom, random100, randomMinMax } from '../helpers/helpers.js';
 import brainGames from '../cli.js';
 import DescribeGame from '../components/DescribeGame.js';
 
-
 const brainProgRound = () => {
   const progressionLength = randomMinMax(5, 10);
   const position = setRandom(progressionLength)();

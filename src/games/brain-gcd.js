@@ -12,6 +12,7 @@ const findGcd = (firstNum, secondNum) => {
       return i;
     }
   }
+  return 0;
 };
 
 const brainGcdRound = () => {

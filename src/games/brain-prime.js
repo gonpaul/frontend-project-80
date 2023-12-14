@@ -4,13 +4,13 @@ import brainGames from '../cli.js';
 import DescribeGame from '../components/DescribeGame.js';
 
 const isPrime = (num) => {
-  for (let i = 2; i < (num**0.5 + 1); i += 1) {
+  for (let i = 2; i < (num ** 0.5 + 1); i += 1) {
     if (num % i === 0) {
       return false;
     }
   }
   return true;
-}
+};
 
 const brainPrimeRound = () => {
   const thisRandomNumber = random100();

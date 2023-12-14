@@ -31,6 +31,4 @@ export const createProblem = (num1, num2) => {
   return [problem, answer];
 };
 
-export const randomMinMax = (min, max) => {
-  return Math.floor(min + Math.random() * (max - min))
-}
+export const randomMinMax = (min, max) => Math.floor(min + Math.random() * (max - min));
