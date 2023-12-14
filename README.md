@@ -11,6 +11,7 @@ npm i
 make brain-prime
 // or use npm link
 // brain-prime
+
 ```
 
 ### Here you can watch how games work: 
